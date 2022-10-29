@@ -1,0 +1,194 @@
+/* -----------------COMMON---------------------- */
+:root {
+	--primary-text-color: #757575;
+	--secondary-text-color: #ffffff;
+	--tertiary-text-color: #212121;
+	--primary-title-color: #212121;
+	--secondary-title-color: #ffffff;
+	--logo-first-color: #2196f3;
+	--logo-second-color: #000000;
+	--logo-third-color: #ffffff;
+	--accent-color: #2196f3;
+	--accent-hero-color: #188ce8;
+	--primary-background-color: #ffffff;
+	--secondary-background-color: #000000;
+	--tertiary-background-color: #f5f4fa;
+	--button-background-color: #2196f3;
+	--link-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	background-color: var(--primary-background-color);
+	color: var(--primary-text-color);
+}
+
+.logo,
+.link {
+	text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+	color: var(--accent-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.list .current {
+	color: var(--accent-color);
+}
+
+.section-title,
+.benefits-subtitle,
+.team-subtitle,
+.portfolio-title {
+	color: var(--primary-title-color);
+}
+
+.section-title,
+.benefits-subtitle,
+.portfolio-title {
+	font-weight: 700;
+}
+
+.section-title {
+	font-size: 36px;
+	text-align: center;
+	line-height: 1.17;
+	color: var(--primary-title-color);
+}
+[type="button"] {
+	font-family: inherit;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* -----------------HEADER---------------------- */
+.logo {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+
+.logo-first-part {
+	color: var(--logo-first-color);
+}
+
+.header-nav .logo-second-part {
+	color: var(--logo-second-color);
+}
+
+.contacts-link,
+.menu-link {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.menu-link {
+	color: var(--tertiary-text-color);
+}
+
+.contacts-link {
+	color: inherit;
+}
+/* -----------------FOOTER---------------------- */
+
+.down {
+	background-color: var(--secondary-background-color);
+}
+
+.down .logo-second-part {
+	color: var(--logo-third-color);
+}
+
+.footer-contacts {
+	font-style: normal;
+}
+
+.footer-link {
+	color: var(--secondary-text-color);
+}
+
+.transparent {
+	color: var(--link-footer-color);
+}
+/* -----------------MAIN PAGE---------------------- */
+/* -----------------HERO---------------------- */
+.hero {
+	background-color: var(--secondary-background-color);
+	text-align: center;
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+}
+
+.hero-button {
+	background-color: var(--button-background-color);
+	font-weight: 700;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: var(--secondary-text-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--accent-hero-color);
+}
+/* -----------------BENEFITS---------------------- */
+.benefits-subtitle {
+	font-size: inherit;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+/* -----------------WORK---------------------- */
+/* -----------------TEAM---------------------- */
+.team {
+	background-color: var(--tertiary-background-color);
+}
+
+.team-subtitle,
+.team-text {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.19;
+}
+
+.team-subtitle {
+	font-weight: 500;
+}
+/* -----------------PORTFOLIO PAGE---------------------- */
+.portfolio-button {
+	font-weight: 500;
+	line-height: 1.62;
+	color: var(--tertiary-text-color);
+	background-color: var(--tertiary-background-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+	color: var(--secondary-text-color);
+	background-color: var(--button-background-color);
+}
+
+.portfolio-title {
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+	font-size: inherit;
+	color: var(--primary-text-color);
+}
